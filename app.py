@@ -1,75 +1,48 @@
 import streamlit as st
 import pandas as pd
-import numpy as np
-from scipy import stats
-import matplotlib.pyplot as plt
+import plotly.express as px
 
-# Configuração da página
-st.set_page_config(page_title="Painel de Alertas DASA", layout="wide")
-st.title("📊 Painel de Alertas - Anomalias em Estoque")
+# Configurações da página
+st.set_page_config(page_title="Controle de Estoque de Materiais", layout="wide")
 
-# 1. Carregar dados (substitua pelo seu CSV)
+# Carregar os dados
 @st.cache_data
-def load_data():
-    # Exemplo com dados simulados (substitua pelo seu CSV real)
-    df = pd.read_csv("dados_dasa.csv")  
-    # Converter Quantidade para numérico (caso não esteja)
-    df["Quantidade"] = pd.to_numeric(df["Quantidade"], errors="coerce")
+def carregar_dados():
+    df = pd.read_csv("controle_estoque.csv", sep=",")
+    df["Data"] = pd.to_datetime(df["Data"], dayfirst=True)
     return df
 
-df = load_data()
+df = carregar_dados()
 
-# 2. Sidebar (filtros)
-st.sidebar.header("Filtros")
-material_selecionado = st.sidebar.selectbox(
-    "Material", 
-    options=["Todos"] + list(df["Material"].unique()))
-show_outliers_only = st.sidebar.checkbox("Mostrar apenas outliers", True)
+# Título
+st.title("📦 Controle de Estoque de Materiais")
 
-# 3. Cálculo de outliers (Z-score e IQR)
-def calculate_outliers(df):
-    # Z-score
-    df["Z-score"] = np.abs(stats.zscore(df["Quantidade"]))
-    df["Outlier (Z-score)"] = df["Z-score"] > 3
-    
-    # IQR
-    Q1 = df["Quantidade"].quantile(0.25)
-    Q3 = df["Quantidade"].quantile(0.75)
-    IQR = Q3 - Q1
-    limite_inferior = Q1 - 1.5 * IQR
-    limite_superior = Q3 + 1.5 * IQR
-    df["Outlier (IQR)"] = (df["Quantidade"] < limite_inferior) | (df["Quantidade"] > limite_superior)
-    
-    return df
+# Filtros
+with st.sidebar:
+    st.header("🔎 Filtros")
+    materiais = st.multiselect("Material", df["Material"].unique(), default=df["Material"].unique())
+    locais = st.multiselect("Local", df["Local"].unique(), default=df["Local"].unique())
+    responsaveis = st.multiselect("Responsável", df["Responsável"].unique(), default=df["Responsável"].unique())
+    tipos = st.multiselect("Tipo de Movimento", df["Tipo"].unique(), default=df["Tipo"].unique())
+    df_filtrado = df[
+        df["Material"].isin(materiais) &
+        df["Local"].isin(locais) &
+        df["Responsável"].isin(responsaveis) &
+        df["Tipo"].isin(tipos)
+    ]
 
-df = calculate_outliers(df)
+# Mostrar dados
+st.subheader("📋 Dados Filtrados")
+st.dataframe(df_filtrado, use_container_width=True)
 
-# 4. Aplicar filtros
-if material_selecionado != "Todos":
-    df = df[df["Material"] == material_selecionado]
-if show_outliers_only:
-    df = df[df["Outlier (Z-score)"] | df["Outlier (IQR)"]]
+# Gráfico de movimentação por material
+st.subheader("📈 Movimentação por Material")
+grafico_material = df_filtrado.groupby(["Material", "Tipo"])["Quantidade"].sum().reset_index()
+fig1 = px.bar(grafico_material, x="Material", y="Quantidade", color="Tipo", barmode="group")
+st.plotly_chart(fig1, use_container_width=True)
 
-# 5. Métricas resumidas
-col1, col2, col3 = st.columns(3)
-col1.metric("Total de Registros", len(df))
-col2.metric("Outliers (Z-score)", df["Outlier (Z-score)"].sum())
-col3.metric("Outliers (IQR)", df["Outlier (IQR)"].sum())
-
-# 6. Tabela de alertas
-st.subheader("🔍 Registros Anômalos")
-st.dataframe(df.sort_values("Z-score", ascending=False))
-
-# 7. Gráficos
-st.subheader("📈 Visualização")
-fig, ax = plt.subplots(figsize=(10, 6))
-df["Quantidade"].plot(kind="box", vert=False, ax=ax)
-ax.set_title("Distribuição das Quantidades (Boxplot)")
-st.pyplot(fig)
-
-# 8. Download dos resultados
-st.sidebar.download_button(
-    label="Baixar dados filtrados (CSV)",
-    data=df.to_csv(index=False).encode("utf-8"),
-    file_name="alertas_estoque_dasa.csv"
-)
+# Gráfico de movimentação ao longo do tempo
+st.subheader("📊 Movimentação ao Longo do Tempo")
+grafico_tempo = df_filtrado.groupby(["Data", "Tipo"])["Quantidade"].sum().reset_index()
+fig2 = px.line(grafico_tempo, x="Data", y="Quantidade", color="Tipo", markers=True)
+st.plotly_chart(fig2, use_container_width=True)
