@@ -39,5 +39,5 @@ print("\n📊 TABELA DE DADOS SIMULADOS (10 PRIMEIRAS LINHAS):")
 print(df.head(10))  # Mostra apenas as primeiras linhas para não poluir o terminal
 
 # 5. SALVAR EM CSV (OPCIONAL)
-df.to_csv("dados_dasa.csv", index=False, encoding="utf-8-sig")
+df.to_csv("controle_estoque.csv", index=False, encoding="utf-8-sig")
 print("\n✅ Arquivo 'dados_dasa.csv' salvo!")
