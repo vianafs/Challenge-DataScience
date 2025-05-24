@@ -1,0 +1,501 @@
+﻿ID,Data,Material,Quantidade,Saldo,Tipo,Unidade,Responsável,Local,Lote
+1,07/01/2025,Tubo Vácuo EDTA 4mL,-3,136,Transferência,unidades,Carlos Oliveira,Lab Recife,LOTE-202307
+2,04/05/2025,Avental Desc.,-10,127,Consumo,unidades,Maria Souza,Lab Salvador,LOTE-202320
+3,03/01/2025,Seringa 10mL,83,227,Compra,unidades,Ana Costa,Lab Recife,LOTE-202382
+4,04/01/2025,Avental Desc.,-8,119,Transferência,unidades,Ricardo Santos,Lab RJ,LOTE-202393
+5,05/12/2024,Reagente Glicose HK,-2,119,Ajuste,frascos,Carlos Oliveira,Lab SP,LOTE-202358
+6,29/04/2025,Anestésico Local,-2,120,Transferência,pacotes,Patrícia Mendes,Lab Brasília,LOTE-202300
+7,22/05/2025,Tubo Coleta 5mL,-1,159,Doação,unidades,Maria Souza,Lab BH,LOTE-202368
+8,21/12/2024,Torneira 3 Vias,-2,69,Ajuste,caixas,Maria Souza,Lab Recife,LOTE-202332
+9,01/02/2025,Sonda Vesical,-14,56,Doação,caixas,Juliana Almeida,Lab SP,LOTE-202301
+10,14/04/2025,Máscara N95,-8,102,Transferência,pacotes,Fernanda Lima,Lab SP,LOTE-202337
+11,17/01/2025,Touca Desc.,-6,94,Transferência,unidades,Patrícia Mendes,Lab Brasília,LOTE-202395
+12,15/12/2024,Gaze Estéril,1,129,Ajuste,pacotes,Ricardo Santos,Lab Brasília,LOTE-202338
+13,30/12/2024,Avental Desc.,16,135,Transferência,caixas,Carlos Oliveira,Lab Brasília,LOTE-202349
+14,02/04/2025,Cateter Intravenoso,-10,166,Transferência,unidades,Carlos Oliveira,Lab RJ,LOTE-202328
+15,27/02/2025,Fio de Sutura,5,94,Transferência,pacotes,Juliana Almeida,Lab POA,LOTE-202337
+16,14/01/2025,Máscara Cirúrgica,-5,134,Ajuste,unidades,Lucas Pereira,Lab SP,LOTE-202305
+17,18/02/2025,Agulha 25x7,90,203,Compra,caixas,Maria Souza,Lab BH,LOTE-202306
+18,09/03/2025,Gaze Estéril,-9,120,Doação,caixas,Patrícia Mendes,Lab BH,LOTE-202381
+19,26/04/2025,Solução Salina,-16,92,Doação,frascos,Juliana Almeida,Lab Salvador,LOTE-202323
+20,02/04/2025,Solução Salina,8,100,Doação,frascos,Patrícia Mendes,Lab POA,LOTE-202338
+21,24/04/2025,Gaze Estéril,-11,109,Doação,caixas,Ana Costa,Lab SP,LOTE-202323
+22,31/03/2025,Sonda Vesical,69,125,Compra,pacotes,Maria Souza,Lab BH,LOTE-202398
+23,19/03/2025,Torneira 3 Vias,-22,47,Consumo,unidades,Patrícia Mendes,Lab Brasília,LOTE-202389
+24,12/04/2025,Tala Articulada,69,254,Compra,caixas,Fernanda Lima,Lab Recife,LOTE-202332
+25,21/04/2025,Kit PCR COVID-19,-13,79,Transferência,unidades,Ana Costa,Lab Brasília,LOTE-202352
+26,03/12/2024,Swab Nasal,12,173,Transferência,unidades,João Silva,Lab SP,LOTE-202338
+27,11/05/2025,Bandagem Estéril,88,169,Compra,caixas,Carlos Oliveira,Lab BH,LOTE-202394
+28,09/01/2025,Torneira 3 Vias,-19,28,Doação,caixas,Ana Costa,Lab RJ,LOTE-202368
+29,15/02/2025,Fio de Sutura,-29,65,Consumo,unidades,Ana Costa,Lab POA,LOTE-202377
+30,22/05/2025,Álcool Gel 70%,-15,131,Doação,frascos,Fernanda Lima,Lab Recife,LOTE-202370
+31,21/02/2025,Curativo Adesivo,-28,100,Consumo,caixas,Juliana Almeida,Lab SP,LOTE-202303
+32,21/03/2025,Tala Articulada,17,271,Compra,pacotes,Fernanda Lima,Lab RJ,LOTE-202397
+33,05/12/2024,Touca Desc.,9,103,Doação,caixas,Carlos Oliveira,Lab Brasília,LOTE-202307
+34,23/12/2024,Seringa 10mL,-9,218,Doação,unidades,Lucas Pereira,Lab POA,LOTE-202322
+35,28/03/2025,Swab Nasal,-14,159,Consumo,unidades,Patrícia Mendes,Lab Recife,LOTE-202387
+36,15/01/2025,Tubo Vácuo EDTA 4mL,98,234,Compra,unidades,Fernanda Lima,Lab Salvador,LOTE-202366
+37,23/01/2025,Luvas Latex G,-1,81,Consumo,unidades,João Silva,Lab POA,LOTE-202309
+38,06/02/2025,Sonda Vesical,-5,120,Ajuste,caixas,Patrícia Mendes,Lab RJ,LOTE-202362
+39,20/12/2024,Torneira 3 Vias,-6,22,Doação,caixas,Ricardo Santos,Lab POA,LOTE-202380
+40,22/05/2025,Anestésico Local,-16,104,Transferência,pacotes,Lucas Pereira,Lab Brasília,LOTE-202364
+41,28/04/2025,Tubo Coleta 5mL,-10,149,Ajuste,unidades,Fernanda Lima,Lab POA,LOTE-202367
+42,22/05/2025,Luvas Latex M,-19,173,Doação,pacotes,Ana Costa,Lab SP,LOTE-202327
+43,17/05/2025,Gaze Estéril,-5,104,Consumo,unidades,João Silva,Lab Salvador,LOTE-202308
+44,07/12/2024,Anestésico Local,-2,102,Consumo,caixas,Patrícia Mendes,Lab Recife,LOTE-202373
+45,19/01/2025,Óxido Nitroso,-6,48,Transferência,unidades,Lucas Pereira,Lab RJ,LOTE-202359
+46,16/04/2025,Tubo Vácuo EDTA 4mL,69,303,Compra,unidades,Juliana Almeida,Lab Brasília,LOTE-202365
+47,19/03/2025,Cateter Intravenoso,-2,164,Consumo,unidades,Juliana Almeida,Lab Salvador,LOTE-202336
+48,05/05/2025,Tubo Vácuo EDTA 4mL,-25,278,Consumo,unidades,Fernanda Lima,Lab Brasília,LOTE-202308
+49,11/05/2025,Tala Articulada,-10,261,Doação,unidades,Juliana Almeida,Lab Salvador,LOTE-202389
+50,28/12/2024,Máscara N95,10,112,Ajuste,pacotes,Fernanda Lima,Lab Brasília,LOTE-202319
+51,24/01/2025,Álcool Gel 70%,85,216,Compra,frascos,Maria Souza,Lab Brasília,LOTE-202357
+52,05/02/2025,Termômetro Digital,-11,153,Transferência,caixas,João Silva,Lab Brasília,LOTE-202342
+53,08/01/2025,Agulha 25x7,-13,190,Ajuste,pacotes,Carlos Oliveira,Lab POA,LOTE-202345
+54,08/01/2025,Compressor Cirúrgico,-7,159,Consumo,caixas,Fernanda Lima,Lab POA,LOTE-202309
+55,17/04/2025,Luvas Latex G,-26,55,Consumo,unidades,Juliana Almeida,Lab RJ,LOTE-202317
+56,19/04/2025,Agulha 25x7,-16,174,Consumo,caixas,Carlos Oliveira,Lab BH,LOTE-202362
+57,05/01/2025,Agulha 25x7,-16,158,Doação,unidades,Patrícia Mendes,Lab Brasília,LOTE-202360
+58,11/04/2025,Álcool Gel 70%,-5,211,Doação,frascos,Maria Souza,Lab SP,LOTE-202317
+59,16/02/2025,Antisséptico Clorexidina,-14,111,Doação,frascos,Maria Souza,Lab RJ,LOTE-202399
+60,16/04/2025,Reagente Glicose HK,-25,94,Consumo,frascos,Maria Souza,Lab Salvador,LOTE-202343
+61,10/01/2025,Cateter Intravenoso,-6,158,Transferência,unidades,Carlos Oliveira,Lab BH,LOTE-202311
+62,06/04/2025,Tala Articulada,5,266,Transferência,unidades,Maria Souza,Lab POA,LOTE-202394
+63,26/04/2025,Curativo Adesivo,-6,94,Doação,pacotes,Patrícia Mendes,Lab RJ,LOTE-202303
+64,05/04/2025,Reagente Glicose HK,81,175,Compra,frascos,Carlos Oliveira,Lab POA,LOTE-202358
+65,18/04/2025,Antisséptico Clorexidina,-8,103,Ajuste,frascos,Juliana Almeida,Lab Brasília,LOTE-202341
+66,27/04/2025,Luvas Latex G,-18,37,Doação,unidades,Ana Costa,Lab Recife,LOTE-202322
+67,15/12/2024,Tala Articulada,-1,265,Transferência,caixas,Fernanda Lima,Lab Brasília,LOTE-202378
+68,25/11/2024,Seringa 10mL,-7,211,Consumo,unidades,Juliana Almeida,Lab POA,LOTE-202331
+69,04/12/2024,Swab Nasal,-3,156,Ajuste,unidades,Juliana Almeida,Lab Brasília,LOTE-202367
+70,12/04/2025,Termômetro Digital,-2,151,Transferência,unidades,Ricardo Santos,Lab Brasília,LOTE-202332
+71,27/12/2024,Bandagem Estéril,-20,149,Consumo,unidades,Ana Costa,Lab POA,LOTE-202323
+72,24/01/2025,Seringa 10mL,2,213,Transferência,unidades,Patrícia Mendes,Lab Salvador,LOTE-202374
+73,11/12/2024,Cateter Intravenoso,3,161,Doação,unidades,Fernanda Lima,Lab Salvador,LOTE-202323
+74,04/05/2025,Antisséptico Clorexidina,10,113,Compra,frascos,Maria Souza,Lab Recife,LOTE-202392
+75,28/04/2025,Anestésico Local,-11,91,Transferência,pacotes,Juliana Almeida,Lab POA,LOTE-202328
+76,19/05/2025,Óxido Nitroso,-13,35,Ajuste,unidades,Fernanda Lima,Lab RJ,LOTE-202369
+77,25/12/2024,Álcool Gel 70%,10,221,Compra,frascos,Ana Costa,Lab Salvador,LOTE-202354
+78,11/12/2024,Antisséptico Clorexidina,10,123,Doação,frascos,Ricardo Santos,Lab SP,LOTE-202303
+79,03/02/2025,Avental Desc.,-22,113,Consumo,pacotes,Ana Costa,Lab Brasília,LOTE-202384
+80,29/11/2024,Máscara N95,43,155,Compra,caixas,Patrícia Mendes,Lab BH,LOTE-202378
+81,18/02/2025,Seringa 10mL,-29,184,Consumo,unidades,Carlos Oliveira,Lab POA,LOTE-202396
+82,15/12/2024,Álcool Gel 70%,-12,209,Doação,frascos,Ricardo Santos,Lab RJ,LOTE-202372
+83,20/02/2025,Máscara N95,3,158,Ajuste,pacotes,Ana Costa,Lab Recife,LOTE-202393
+84,19/12/2024,Touca Desc.,81,184,Compra,caixas,Patrícia Mendes,Lab BH,LOTE-202397
+85,20/01/2025,Luvas Latex M,16,189,Ajuste,caixas,Carlos Oliveira,Lab Brasília,LOTE-202331
+86,06/12/2024,Máscara Cirúrgica,12,146,Ajuste,caixas,Patrícia Mendes,Lab BH,LOTE-202327
+87,20/03/2025,Máscara N95,-2,156,Doação,pacotes,Juliana Almeida,Lab Recife,LOTE-202322
+88,30/12/2024,Bisturi Desc. #15,75,131,Compra,caixas,Juliana Almeida,Lab Salvador,LOTE-202356
+89,21/12/2024,Tubo Vácuo EDTA 4mL,-19,259,Transferência,unidades,Lucas Pereira,Lab Salvador,LOTE-202313
+90,11/01/2025,Tubo Coleta 5mL,34,183,Compra,unidades,Carlos Oliveira,Lab BH,LOTE-202305
+91,10/12/2024,Máscara Cirúrgica,-11,135,Ajuste,caixas,Carlos Oliveira,Lab SP,LOTE-202340
+92,24/04/2025,Antisséptico Clorexidina,61,184,Compra,frascos,João Silva,Lab POA,LOTE-202359
+93,27/04/2025,Kit PCR COVID-19,6,85,Doação,unidades,Juliana Almeida,Lab SP,LOTE-202384
+94,03/04/2025,Agulha 25x7,8,166,Doação,pacotes,Ricardo Santos,Lab BH,LOTE-202332
+95,10/05/2025,Termômetro Digital,99,250,Compra,caixas,Lucas Pereira,Lab SP,LOTE-202332
+96,24/03/2025,Antisséptico Clorexidina,-28,156,Consumo,frascos,Patrícia Mendes,Lab Salvador,LOTE-202356
+97,26/01/2025,Frasco Soro 500mL,-12,179,Doação,caixas,Ricardo Santos,Lab Salvador,LOTE-202331
+98,22/03/2025,Touca Desc.,11,195,Doação,caixas,Ricardo Santos,Lab POA,LOTE-202377
+99,16/02/2025,Frasco Soro 500mL,66,245,Compra,unidades,Ana Costa,Lab SP,LOTE-202306
+100,26/03/2025,Tubo Vácuo EDTA 4mL,-26,233,Consumo,unidades,Fernanda Lima,Lab RJ,LOTE-202336
+101,25/03/2025,Bandagem Estéril,-22,127,Consumo,pacotes,Ricardo Santos,Lab SP,LOTE-202311
+102,01/03/2025,Touca Desc.,-5,190,Ajuste,unidades,Carlos Oliveira,Lab POA,LOTE-202331
+103,31/12/2024,Fio de Sutura,18,83,Doação,pacotes,Maria Souza,Lab Brasília,LOTE-202399
+104,12/05/2025,Touca Desc.,11,201,Doação,unidades,João Silva,Lab Brasília,LOTE-202327
+105,30/01/2025,Bisturi Desc. #15,-16,115,Consumo,caixas,Patrícia Mendes,Lab Brasília,LOTE-202354
+106,10/12/2024,Tala Articulada,19,284,Ajuste,pacotes,Ana Costa,Lab RJ,LOTE-202351
+107,28/03/2025,Tubo Vácuo EDTA 4mL,-3,230,Doação,unidades,Maria Souza,Lab RJ,LOTE-202308
+108,28/02/2025,Cateter Intravenoso,-24,137,Consumo,unidades,Fernanda Lima,Lab BH,LOTE-202341
+109,22/03/2025,Máscara Cirúrgica,66,201,Compra,caixas,Carlos Oliveira,Lab POA,LOTE-202319
+110,10/12/2024,Kit PCR COVID-19,6,91,Doação,pacotes,Juliana Almeida,Lab POA,LOTE-202384
+111,23/01/2025,Swab Nasal,2,158,Ajuste,unidades,Juliana Almeida,Lab SP,LOTE-202394
+112,17/05/2025,Termômetro Digital,-3,247,Ajuste,caixas,João Silva,Lab Salvador,LOTE-202311
+113,12/01/2025,Frasco Soro 500mL,6,251,Ajuste,caixas,João Silva,Lab Brasília,LOTE-202320
+114,14/12/2024,Antisséptico Clorexidina,-3,153,Ajuste,frascos,Carlos Oliveira,Lab Brasília,LOTE-202349
+115,14/01/2025,Frasco Soro 500mL,27,278,Compra,caixas,Ricardo Santos,Lab Brasília,LOTE-202331
+116,21/03/2025,Antisséptico Clorexidina,18,171,Transferência,frascos,Patrícia Mendes,Lab Brasília,LOTE-202384
+117,19/04/2025,Compressor Cirúrgico,8,167,Doação,pacotes,Ana Costa,Lab Salvador,LOTE-202328
+118,27/02/2025,Máscara N95,-18,138,Doação,unidades,Lucas Pereira,Lab Brasília,LOTE-202374
+119,02/02/2025,Solução Salina,19,119,Compra,frascos,Patrícia Mendes,Lab RJ,LOTE-202386
+120,23/12/2024,Luvas Latex G,87,124,Compra,unidades,Ricardo Santos,Lab SP,LOTE-202362
+121,05/05/2025,Solução Salina,-15,104,Consumo,frascos,Fernanda Lima,Lab RJ,LOTE-202345
+122,03/03/2025,Luvas Latex M,-1,188,Consumo,pacotes,Carlos Oliveira,Lab POA,LOTE-202316
+123,21/12/2024,Bisturi Desc. #15,-1,114,Transferência,unidades,Carlos Oliveira,Lab RJ,LOTE-202353
+124,05/03/2025,Reagente Glicose HK,-1,174,Consumo,frascos,Carlos Oliveira,Lab Recife,LOTE-202368
+125,31/01/2025,Solução Salina,11,115,Ajuste,frascos,Patrícia Mendes,Lab Recife,LOTE-202339
+126,23/03/2025,Bandagem Estéril,-7,120,Consumo,unidades,Carlos Oliveira,Lab Recife,LOTE-202345
+127,20/01/2025,Bisturi Desc. #15,9,123,Transferência,unidades,Maria Souza,Lab RJ,LOTE-202309
+128,12/05/2025,Avental Desc.,10,123,Ajuste,unidades,Ricardo Santos,Lab SP,LOTE-202311
+129,08/02/2025,Fio de Sutura,16,99,Doação,unidades,João Silva,Lab BH,LOTE-202342
+130,22/02/2025,Álcool Gel 70%,6,215,Transferência,frascos,Patrícia Mendes,Lab Recife,LOTE-202336
+131,31/01/2025,Frasco Soro 500mL,-20,258,Consumo,pacotes,Carlos Oliveira,Lab Brasília,LOTE-202335
+132,10/02/2025,Tubo Vácuo EDTA 4mL,-17,213,Consumo,unidades,João Silva,Lab Salvador,LOTE-202397
+133,23/04/2025,Máscara N95,0,138,Doação,pacotes,Fernanda Lima,Lab Salvador,LOTE-202363
+134,14/04/2025,Bisturi Desc. #15,-20,103,Doação,pacotes,Patrícia Mendes,Lab Brasília,LOTE-202351
+135,03/02/2025,Compressor Cirúrgico,13,180,Transferência,pacotes,Juliana Almeida,Lab POA,LOTE-202386
+136,25/01/2025,Tala Articulada,5,289,Ajuste,caixas,João Silva,Lab Salvador,LOTE-202375
+137,08/12/2024,Tala Articulada,12,301,Ajuste,unidades,Lucas Pereira,Lab SP,LOTE-202374
+138,04/02/2025,Fio de Sutura,-15,84,Transferência,caixas,Ricardo Santos,Lab RJ,LOTE-202304
+139,16/01/2025,Óxido Nitroso,60,95,Compra,unidades,Maria Souza,Lab Salvador,LOTE-202359
+140,25/12/2024,Máscara N95,-11,127,Transferência,caixas,Ricardo Santos,Lab RJ,LOTE-202324
+141,12/05/2025,Gaze Estéril,-2,102,Transferência,caixas,Ricardo Santos,Lab BH,LOTE-202351
+142,10/02/2025,Luvas Latex G,-4,120,Doação,unidades,Fernanda Lima,Lab Brasília,LOTE-202362
+143,17/02/2025,Anestésico Local,-14,77,Transferência,caixas,Maria Souza,Lab Brasília,LOTE-202334
+144,09/04/2025,Compressor Cirúrgico,47,227,Compra,pacotes,Carlos Oliveira,Lab Salvador,LOTE-202365
+145,23/03/2025,Tubo Coleta 5mL,-15,168,Ajuste,unidades,Patrícia Mendes,Lab Salvador,LOTE-202396
+146,03/02/2025,Frasco Soro 500mL,1,259,Doação,caixas,João Silva,Lab POA,LOTE-202325
+147,12/03/2025,Kit PCR COVID-19,19,110,Ajuste,caixas,Fernanda Lima,Lab Salvador,LOTE-202321
+148,10/04/2025,Anestésico Local,-2,75,Ajuste,caixas,Juliana Almeida,Lab Salvador,LOTE-202368
+149,16/05/2025,Reagente Glicose HK,-21,153,Consumo,frascos,Patrícia Mendes,Lab Brasília,LOTE-202338
+150,28/04/2025,Máscara Cirúrgica,2,203,Transferência,pacotes,João Silva,Lab RJ,LOTE-202338
+151,25/11/2024,Kit PCR COVID-19,-14,96,Transferência,unidades,Ana Costa,Lab SP,LOTE-202339
+152,19/05/2025,Gaze Estéril,11,113,Doação,unidades,Ricardo Santos,Lab Salvador,LOTE-202373
+153,02/01/2025,Bandagem Estéril,2,122,Doação,caixas,Ana Costa,Lab SP,LOTE-202331
+154,21/01/2025,Touca Desc.,88,289,Compra,pacotes,Lucas Pereira,Lab Recife,LOTE-202353
+155,21/04/2025,Torneira 3 Vias,2,24,Transferência,unidades,Ana Costa,Lab Salvador,LOTE-202362
+156,07/01/2025,Sonda Vesical,32,152,Compra,unidades,Fernanda Lima,Lab Brasília,LOTE-202346
+157,19/01/2025,Óxido Nitroso,5,100,Doação,pacotes,Lucas Pereira,Lab SP,LOTE-202325
+158,01/12/2024,Bisturi Desc. #15,84,187,Compra,pacotes,Ricardo Santos,Lab Recife,LOTE-202305
+159,28/12/2024,Bandagem Estéril,0,122,Transferência,pacotes,Fernanda Lima,Lab SP,LOTE-202326
+160,15/04/2025,Bandagem Estéril,-18,104,Transferência,unidades,Ricardo Santos,Lab RJ,LOTE-202386
+161,19/02/2025,Termômetro Digital,-5,242,Consumo,pacotes,Carlos Oliveira,Lab Salvador,LOTE-202300
+162,11/12/2024,Sonda Vesical,-3,149,Consumo,caixas,Lucas Pereira,Lab BH,LOTE-202309
+163,03/01/2025,Seringa 10mL,21,205,Compra,unidades,Juliana Almeida,Lab Recife,LOTE-202347
+164,23/12/2024,Solução Salina,-14,101,Ajuste,frascos,Ricardo Santos,Lab BH,LOTE-202345
+165,12/12/2024,Gaze Estéril,72,185,Compra,pacotes,Lucas Pereira,Lab Brasília,LOTE-202361
+166,01/01/2025,Avental Desc.,-19,104,Transferência,caixas,Lucas Pereira,Lab Brasília,LOTE-202396
+167,03/12/2024,Frasco Soro 500mL,57,316,Compra,unidades,Ricardo Santos,Lab Recife,LOTE-202323
+168,15/02/2025,Antisséptico Clorexidina,-20,151,Ajuste,frascos,Carlos Oliveira,Lab RJ,LOTE-202317
+169,03/04/2025,Compressor Cirúrgico,-11,216,Transferência,caixas,João Silva,Lab Salvador,LOTE-202323
+170,20/04/2025,Agulha 25x7,-8,158,Doação,pacotes,João Silva,Lab Recife,LOTE-202398
+171,10/01/2025,Luvas Latex G,-10,110,Transferência,caixas,Carlos Oliveira,Lab Brasília,LOTE-202335
+172,08/05/2025,Torneira 3 Vias,-18,6,Doação,pacotes,Juliana Almeida,Lab SP,LOTE-202388
+173,17/02/2025,Tubo Vácuo EDTA 4mL,50,263,Compra,unidades,Carlos Oliveira,Lab SP,LOTE-202319
+174,13/04/2025,Tubo Coleta 5mL,31,199,Compra,unidades,Patrícia Mendes,Lab SP,LOTE-202364
+175,02/03/2025,Torneira 3 Vias,-12,0,Doação,pacotes,Ricardo Santos,Lab RJ,LOTE-202380
+176,29/04/2025,Máscara Cirúrgica,-17,186,Consumo,unidades,Ana Costa,Lab RJ,LOTE-202312
+177,25/03/2025,Touca Desc.,15,304,Doação,pacotes,Carlos Oliveira,Lab Recife,LOTE-202348
+178,03/05/2025,Bisturi Desc. #15,-3,184,Transferência,unidades,Lucas Pereira,Lab SP,LOTE-202301
+179,29/12/2024,Luvas Latex M,3,191,Doação,pacotes,Lucas Pereira,Lab POA,LOTE-202341
+180,14/02/2025,Luvas Latex G,13,123,Doação,unidades,Carlos Oliveira,Lab SP,LOTE-202301
+181,24/02/2025,Álcool Gel 70%,-28,187,Consumo,frascos,Carlos Oliveira,Lab SP,LOTE-202385
+182,13/02/2025,Reagente Glicose HK,-16,137,Consumo,frascos,Patrícia Mendes,Lab Brasília,LOTE-202349
+183,14/04/2025,Anestésico Local,-8,67,Consumo,unidades,Lucas Pereira,Lab BH,LOTE-202320
+184,04/03/2025,Curativo Adesivo,28,122,Compra,unidades,Patrícia Mendes,Lab RJ,LOTE-202346
+185,14/01/2025,Curativo Adesivo,-15,107,Doação,caixas,Juliana Almeida,Lab SP,LOTE-202328
+186,26/01/2025,Reagente Glicose HK,21,158,Compra,frascos,Ricardo Santos,Lab RJ,LOTE-202302
+187,31/01/2025,Termômetro Digital,72,314,Compra,pacotes,Maria Souza,Lab SP,LOTE-202373
+188,29/03/2025,Álcool Gel 70%,3,190,Doação,frascos,Lucas Pereira,Lab Recife,LOTE-202395
+189,20/12/2024,Touca Desc.,-10,294,Ajuste,caixas,Ricardo Santos,Lab Salvador,LOTE-202313
+190,05/05/2025,Agulha 25x7,-4,154,Transferência,unidades,Ricardo Santos,Lab POA,LOTE-202305
+191,22/02/2025,Tubo Coleta 5mL,12,211,Doação,unidades,Juliana Almeida,Lab POA,LOTE-202326
+192,07/12/2024,Avental Desc.,11,115,Transferência,unidades,Juliana Almeida,Lab RJ,LOTE-202306
+193,07/02/2025,Sonda Vesical,41,190,Compra,caixas,Ricardo Santos,Lab Brasília,LOTE-202388
+194,25/12/2024,Luvas Latex M,28,219,Compra,unidades,Lucas Pereira,Lab Salvador,LOTE-202321
+195,06/12/2024,Avental Desc.,7,122,Ajuste,pacotes,Fernanda Lima,Lab POA,LOTE-202327
+196,07/05/2025,Seringa 10mL,13,218,Ajuste,unidades,Maria Souza,Lab POA,LOTE-202390
+197,02/01/2025,Agulha 25x7,-17,137,Transferência,pacotes,João Silva,Lab SP,LOTE-202389
+198,19/12/2024,Frasco Soro 500mL,-16,300,Ajuste,pacotes,Carlos Oliveira,Lab Salvador,LOTE-202332
+199,28/11/2024,Kit PCR COVID-19,99,195,Compra,caixas,Lucas Pereira,Lab SP,LOTE-202384
+200,20/04/2025,Tala Articulada,-27,274,Consumo,pacotes,Ana Costa,Lab Salvador,LOTE-202377
+201,06/02/2025,Luvas Latex M,9,228,Ajuste,caixas,Lucas Pereira,Lab RJ,LOTE-202364
+202,26/03/2025,Máscara N95,13,140,Compra,pacotes,Patrícia Mendes,Lab BH,LOTE-202330
+203,27/12/2024,Máscara N95,6,146,Transferência,pacotes,Fernanda Lima,Lab Brasília,LOTE-202388
+204,08/03/2025,Bandagem Estéril,5,109,Transferência,pacotes,Carlos Oliveira,Lab Salvador,LOTE-202373
+205,09/02/2025,Compressor Cirúrgico,-16,200,Consumo,pacotes,Fernanda Lima,Lab RJ,LOTE-202301
+206,19/02/2025,Torneira 3 Vias,-17,0,Ajuste,unidades,Carlos Oliveira,Lab Salvador,LOTE-202375
+207,15/02/2025,Máscara N95,-16,130,Transferência,pacotes,Juliana Almeida,Lab Brasília,LOTE-202345
+208,03/12/2024,Luvas Latex G,98,221,Compra,caixas,João Silva,Lab SP,LOTE-202307
+209,13/05/2025,Torneira 3 Vias,-5,0,Doação,pacotes,Patrícia Mendes,Lab RJ,LOTE-202341
+210,28/11/2024,Álcool Gel 70%,-11,179,Transferência,frascos,João Silva,Lab RJ,LOTE-202359
+211,03/03/2025,Compressor Cirúrgico,98,298,Compra,caixas,Carlos Oliveira,Lab Salvador,LOTE-202323
+212,24/03/2025,Tubo Coleta 5mL,-18,193,Doação,unidades,Fernanda Lima,Lab Brasília,LOTE-202369
+213,01/01/2025,Tubo Coleta 5mL,41,234,Compra,unidades,Carlos Oliveira,Lab Brasília,LOTE-202379
+214,19/05/2025,Luvas Latex G,-20,201,Ajuste,caixas,Fernanda Lima,Lab RJ,LOTE-202307
+215,27/03/2025,Tubo Coleta 5mL,-17,217,Ajuste,unidades,Ana Costa,Lab Salvador,LOTE-202399
+216,23/01/2025,Óxido Nitroso,2,102,Transferência,caixas,Fernanda Lima,Lab Brasília,LOTE-202327
+217,03/01/2025,Cateter Intravenoso,-29,108,Consumo,unidades,Juliana Almeida,Lab RJ,LOTE-202349
+218,07/04/2025,Termômetro Digital,-24,290,Consumo,unidades,Patrícia Mendes,Lab POA,LOTE-202379
+219,09/12/2024,Torneira 3 Vias,5,5,Ajuste,caixas,Carlos Oliveira,Lab Brasília,LOTE-202304
+220,20/01/2025,Luvas Latex G,-13,188,Transferência,unidades,Ricardo Santos,Lab SP,LOTE-202377
+221,09/12/2024,Fio de Sutura,0,84,Ajuste,unidades,Patrícia Mendes,Lab Salvador,LOTE-202396
+222,02/12/2024,Cateter Intravenoso,-10,98,Ajuste,unidades,Ana Costa,Lab SP,LOTE-202397
+223,01/04/2025,Máscara Cirúrgica,-25,161,Consumo,caixas,João Silva,Lab Recife,LOTE-202379
+224,06/05/2025,Tubo Coleta 5mL,-4,213,Doação,unidades,Fernanda Lima,Lab Brasília,LOTE-202335
+225,21/01/2025,Solução Salina,15,116,Ajuste,frascos,Maria Souza,Lab POA,LOTE-202394
+226,01/03/2025,Seringa 10mL,-14,204,Ajuste,unidades,Ricardo Santos,Lab Brasília,LOTE-202315
+227,29/03/2025,Bandagem Estéril,-19,90,Consumo,pacotes,João Silva,Lab Salvador,LOTE-202340
+228,16/02/2025,Óxido Nitroso,-5,97,Transferência,pacotes,João Silva,Lab POA,LOTE-202331
+229,01/02/2025,Bisturi Desc. #15,-6,178,Doação,caixas,Lucas Pereira,Lab RJ,LOTE-202315
+230,17/05/2025,Seringa 10mL,-13,191,Doação,unidades,Maria Souza,Lab POA,LOTE-202369
+231,03/12/2024,Gaze Estéril,-8,177,Consumo,caixas,Juliana Almeida,Lab Salvador,LOTE-202371
+232,24/02/2025,Gaze Estéril,4,181,Ajuste,caixas,João Silva,Lab Recife,LOTE-202344
+233,21/12/2024,Luvas Latex G,10,198,Transferência,caixas,Maria Souza,Lab Salvador,LOTE-202300
+234,25/12/2024,Tubo Vácuo EDTA 4mL,9,272,Ajuste,unidades,Patrícia Mendes,Lab Salvador,LOTE-202356
+235,09/03/2025,Antisséptico Clorexidina,7,158,Ajuste,frascos,Carlos Oliveira,Lab Recife,LOTE-202321
+236,09/03/2025,Álcool Gel 70%,-5,174,Ajuste,frascos,Lucas Pereira,Lab Recife,LOTE-202399
+237,04/04/2025,Bandagem Estéril,-6,84,Doação,caixas,Maria Souza,Lab Brasília,LOTE-202324
+238,22/05/2025,Óxido Nitroso,0,97,Ajuste,unidades,Lucas Pereira,Lab Recife,LOTE-202390
+239,28/02/2025,Tubo Coleta 5mL,-11,202,Doação,unidades,Ricardo Santos,Lab BH,LOTE-202385
+240,09/05/2025,Máscara N95,72,202,Compra,caixas,Juliana Almeida,Lab POA,LOTE-202348
+241,17/05/2025,Máscara Cirúrgica,-9,152,Transferência,unidades,Patrícia Mendes,Lab RJ,LOTE-202366
+242,10/05/2025,Termômetro Digital,8,298,Ajuste,pacotes,Fernanda Lima,Lab POA,LOTE-202394
+243,21/02/2025,Máscara Cirúrgica,-11,141,Consumo,caixas,Carlos Oliveira,Lab Salvador,LOTE-202370
+244,09/12/2024,Curativo Adesivo,-5,102,Ajuste,unidades,Carlos Oliveira,Lab Brasília,LOTE-202372
+245,06/01/2025,Antisséptico Clorexidina,-10,148,Doação,frascos,Ana Costa,Lab POA,LOTE-202332
+246,25/03/2025,Bandagem Estéril,91,175,Compra,pacotes,Juliana Almeida,Lab Salvador,LOTE-202315
+247,03/03/2025,Luvas Latex G,-2,196,Consumo,unidades,Lucas Pereira,Lab POA,LOTE-202377
+248,31/12/2024,Reagente Glicose HK,-15,143,Doação,frascos,Juliana Almeida,Lab Recife,LOTE-202397
+249,08/03/2025,Sonda Vesical,76,266,Compra,caixas,Maria Souza,Lab BH,LOTE-202306
+250,08/04/2025,Bisturi Desc. #15,3,181,Doação,pacotes,Ricardo Santos,Lab RJ,LOTE-202345
+251,07/01/2025,Anestésico Local,-29,38,Consumo,unidades,Ricardo Santos,Lab BH,LOTE-202370
+252,20/05/2025,Reagente Glicose HK,54,197,Compra,frascos,Ana Costa,Lab SP,LOTE-202336
+253,17/05/2025,Gaze Estéril,11,192,Doação,caixas,Fernanda Lima,Lab RJ,LOTE-202345
+254,14/12/2024,Fio de Sutura,39,123,Compra,unidades,Lucas Pereira,Lab Salvador,LOTE-202325
+255,26/11/2024,Luvas Latex M,-8,220,Consumo,unidades,Lucas Pereira,Lab SP,LOTE-202340
+256,19/02/2025,Agulha 25x7,23,160,Compra,unidades,Ana Costa,Lab Brasília,LOTE-202325
+257,15/04/2025,Tubo Coleta 5mL,-1,201,Consumo,unidades,Lucas Pereira,Lab Salvador,LOTE-202388
+258,24/03/2025,Reagente Glicose HK,11,208,Ajuste,frascos,Carlos Oliveira,Lab POA,LOTE-202399
+259,04/04/2025,Máscara N95,77,279,Compra,unidades,Maria Souza,Lab Salvador,LOTE-202358
+260,08/04/2025,Antisséptico Clorexidina,2,150,Ajuste,frascos,Patrícia Mendes,Lab RJ,LOTE-202388
+261,18/04/2025,Seringa 10mL,1,192,Ajuste,unidades,Carlos Oliveira,Lab POA,LOTE-202347
+262,11/04/2025,Sonda Vesical,15,281,Transferência,pacotes,Carlos Oliveira,Lab POA,LOTE-202383
+263,24/02/2025,Tubo Vácuo EDTA 4mL,-12,260,Doação,unidades,Ricardo Santos,Lab POA,LOTE-202325
+264,09/12/2024,Fio de Sutura,-11,112,Transferência,unidades,Fernanda Lima,Lab Recife,LOTE-202336
+265,27/01/2025,Agulha 25x7,-4,156,Consumo,caixas,Maria Souza,Lab Brasília,LOTE-202385
+266,29/12/2024,Termômetro Digital,31,329,Compra,unidades,Patrícia Mendes,Lab Salvador,LOTE-202352
+267,29/03/2025,Reagente Glicose HK,-25,183,Consumo,frascos,Fernanda Lima,Lab BH,LOTE-202313
+268,22/12/2024,Termômetro Digital,-13,316,Transferência,pacotes,Ana Costa,Lab Salvador,LOTE-202316
+269,02/04/2025,Tala Articulada,36,310,Compra,caixas,Fernanda Lima,Lab RJ,LOTE-202316
+270,20/04/2025,Compressor Cirúrgico,-10,288,Ajuste,pacotes,Ricardo Santos,Lab Salvador,LOTE-202358
+271,27/12/2024,Luvas Latex M,15,235,Compra,caixas,Carlos Oliveira,Lab POA,LOTE-202304
+272,16/01/2025,Compressor Cirúrgico,-10,278,Consumo,unidades,Patrícia Mendes,Lab SP,LOTE-202344
+273,17/12/2024,Torneira 3 Vias,9,14,Doação,unidades,Fernanda Lima,Lab Recife,LOTE-202326
+274,02/03/2025,Bandagem Estéril,99,274,Compra,caixas,Patrícia Mendes,Lab Salvador,LOTE-202331
+275,26/11/2024,Anestésico Local,-17,21,Transferência,pacotes,Carlos Oliveira,Lab Brasília,LOTE-202392
+276,01/04/2025,Luvas Latex G,-5,191,Transferência,caixas,Patrícia Mendes,Lab Recife,LOTE-202328
+277,29/12/2024,Máscara Cirúrgica,-17,124,Transferência,caixas,Fernanda Lima,Lab SP,LOTE-202301
+278,29/01/2025,Tubo Vácuo EDTA 4mL,-19,241,Ajuste,unidades,Patrícia Mendes,Lab BH,LOTE-202384
+279,13/05/2025,Frasco Soro 500mL,-8,292,Doação,caixas,Juliana Almeida,Lab SP,LOTE-202385
+280,24/02/2025,Luvas Latex G,13,204,Doação,pacotes,João Silva,Lab BH,LOTE-202386
+281,27/12/2024,Touca Desc.,12,306,Ajuste,unidades,Lucas Pereira,Lab RJ,LOTE-202321
+282,09/05/2025,Kit PCR COVID-19,-9,186,Doação,pacotes,Lucas Pereira,Lab SP,LOTE-202379
+283,01/01/2025,Curativo Adesivo,13,115,Transferência,pacotes,Carlos Oliveira,Lab RJ,LOTE-202387
+284,28/12/2024,Termômetro Digital,-1,315,Transferência,unidades,Juliana Almeida,Lab RJ,LOTE-202326
+285,13/04/2025,Frasco Soro 500mL,14,306,Transferência,caixas,Carlos Oliveira,Lab Recife,LOTE-202300
+286,10/12/2024,Sonda Vesical,-15,266,Transferência,pacotes,Juliana Almeida,Lab Salvador,LOTE-202347
+287,15/12/2024,Luvas Latex G,11,215,Doação,unidades,Patrícia Mendes,Lab Salvador,LOTE-202367
+288,14/03/2025,Termômetro Digital,10,325,Ajuste,pacotes,Ricardo Santos,Lab POA,LOTE-202337
+289,08/01/2025,Tubo Vácuo EDTA 4mL,10,251,Transferência,unidades,Ricardo Santos,Lab RJ,LOTE-202323
+290,05/05/2025,Máscara Cirúrgica,15,139,Doação,caixas,Carlos Oliveira,Lab RJ,LOTE-202386
+291,28/03/2025,Tala Articulada,-7,303,Transferência,pacotes,Lucas Pereira,Lab POA,LOTE-202394
+292,18/05/2025,Sonda Vesical,-5,261,Consumo,unidades,Ana Costa,Lab RJ,LOTE-202392
+293,28/04/2025,Fio de Sutura,7,119,Doação,caixas,Carlos Oliveira,Lab Salvador,LOTE-202389
+294,27/12/2024,Kit PCR COVID-19,14,200,Doação,caixas,Juliana Almeida,Lab Salvador,LOTE-202326
+295,22/01/2025,Torneira 3 Vias,12,26,Ajuste,unidades,Fernanda Lima,Lab Brasília,LOTE-202387
+296,13/05/2025,Tubo Vácuo EDTA 4mL,43,294,Compra,unidades,João Silva,Lab RJ,LOTE-202337
+297,30/04/2025,Touca Desc.,6,312,Transferência,caixas,João Silva,Lab POA,LOTE-202355
+298,10/04/2025,Compressor Cirúrgico,-6,272,Doação,pacotes,Juliana Almeida,Lab Salvador,LOTE-202321
+299,05/01/2025,Bisturi Desc. #15,22,203,Compra,pacotes,Fernanda Lima,Lab BH,LOTE-202365
+300,28/11/2024,Sonda Vesical,2,263,Doação,caixas,Juliana Almeida,Lab RJ,LOTE-202313
+301,24/02/2025,Torneira 3 Vias,-25,1,Consumo,pacotes,Ana Costa,Lab Brasília,LOTE-202350
+302,20/05/2025,Anestésico Local,-15,6,Consumo,unidades,Carlos Oliveira,Lab RJ,LOTE-202306
+303,05/04/2025,Máscara N95,-2,277,Doação,pacotes,Juliana Almeida,Lab POA,LOTE-202338
+304,19/12/2024,Reagente Glicose HK,-8,175,Consumo,frascos,Patrícia Mendes,Lab RJ,LOTE-202362
+305,14/03/2025,Agulha 25x7,-26,130,Consumo,pacotes,João Silva,Lab Brasília,LOTE-202355
+306,23/02/2025,Reagente Glicose HK,-1,174,Transferência,frascos,Carlos Oliveira,Lab RJ,LOTE-202366
+307,11/12/2024,Reagente Glicose HK,-1,173,Consumo,frascos,Lucas Pereira,Lab Brasília,LOTE-202332
+308,19/12/2024,Compressor Cirúrgico,-5,267,Transferência,unidades,Fernanda Lima,Lab BH,LOTE-202374
+309,07/12/2024,Bisturi Desc. #15,18,221,Ajuste,unidades,Carlos Oliveira,Lab SP,LOTE-202357
+310,23/01/2025,Sonda Vesical,7,270,Doação,unidades,Fernanda Lima,Lab BH,LOTE-202348
+311,17/03/2025,Swab Nasal,-18,140,Consumo,unidades,Fernanda Lima,Lab Salvador,LOTE-202356
+312,05/02/2025,Anestésico Local,-25,0,Consumo,unidades,Maria Souza,Lab POA,LOTE-202337
+313,03/04/2025,Bandagem Estéril,-21,253,Consumo,unidades,João Silva,Lab RJ,LOTE-202306
+314,26/01/2025,Seringa 10mL,16,208,Transferência,unidades,Maria Souza,Lab POA,LOTE-202372
+315,13/05/2025,Touca Desc.,26,338,Compra,caixas,Carlos Oliveira,Lab RJ,LOTE-202360
+316,01/05/2025,Compressor Cirúrgico,-10,257,Doação,unidades,Patrícia Mendes,Lab Recife,LOTE-202315
+317,17/05/2025,Agulha 25x7,-2,128,Consumo,unidades,Ana Costa,Lab RJ,LOTE-202364
+318,28/03/2025,Antisséptico Clorexidina,95,245,Compra,frascos,Juliana Almeida,Lab Recife,LOTE-202329
+319,19/01/2025,Álcool Gel 70%,40,214,Compra,frascos,Ana Costa,Lab RJ,LOTE-202320
+320,03/12/2024,Bandagem Estéril,19,272,Ajuste,pacotes,Juliana Almeida,Lab Brasília,LOTE-202314
+321,31/03/2025,Álcool Gel 70%,19,233,Transferência,frascos,Lucas Pereira,Lab Recife,LOTE-202302
+322,01/02/2025,Reagente Glicose HK,-13,160,Transferência,frascos,Juliana Almeida,Lab Salvador,LOTE-202372
+323,11/05/2025,Reagente Glicose HK,16,176,Transferência,frascos,João Silva,Lab BH,LOTE-202373
+324,16/04/2025,Reagente Glicose HK,-1,175,Ajuste,frascos,Patrícia Mendes,Lab Brasília,LOTE-202387
+325,24/02/2025,Agulha 25x7,14,142,Doação,pacotes,Maria Souza,Lab BH,LOTE-202320
+326,24/04/2025,Óxido Nitroso,-29,68,Consumo,caixas,Patrícia Mendes,Lab Recife,LOTE-202306
+327,27/02/2025,Compressor Cirúrgico,-4,253,Consumo,caixas,Fernanda Lima,Lab BH,LOTE-202347
+328,25/12/2024,Luvas Latex G,-3,212,Consumo,caixas,Fernanda Lima,Lab SP,LOTE-202372
+329,28/11/2024,Anestésico Local,55,55,Compra,pacotes,Ricardo Santos,Lab BH,LOTE-202302
+330,22/03/2025,Agulha 25x7,-10,132,Consumo,unidades,Fernanda Lima,Lab RJ,LOTE-202351
+331,08/03/2025,Touca Desc.,16,354,Transferência,caixas,João Silva,Lab BH,LOTE-202366
+332,27/12/2024,Kit PCR COVID-19,51,251,Compra,pacotes,Fernanda Lima,Lab Recife,LOTE-202349
+333,21/04/2025,Bisturi Desc. #15,-19,202,Transferência,pacotes,Carlos Oliveira,Lab POA,LOTE-202393
+334,12/01/2025,Bisturi Desc. #15,85,287,Compra,pacotes,Ricardo Santos,Lab Brasília,LOTE-202398
+335,21/05/2025,Óxido Nitroso,18,86,Compra,pacotes,Patrícia Mendes,Lab SP,LOTE-202335
+336,08/05/2025,Termômetro Digital,15,340,Ajuste,pacotes,Fernanda Lima,Lab Brasília,LOTE-202344
+337,20/01/2025,Fio de Sutura,-18,101,Ajuste,pacotes,Ana Costa,Lab Recife,LOTE-202389
+338,25/12/2024,Tubo Coleta 5mL,-1,200,Ajuste,unidades,Juliana Almeida,Lab BH,LOTE-202394
+339,23/01/2025,Sonda Vesical,7,277,Ajuste,pacotes,Patrícia Mendes,Lab RJ,LOTE-202329
+340,20/01/2025,Bandagem Estéril,10,282,Ajuste,unidades,João Silva,Lab Brasília,LOTE-202341
+341,18/05/2025,Reagente Glicose HK,19,194,Ajuste,frascos,Ana Costa,Lab BH,LOTE-202310
+342,11/12/2024,Bandagem Estéril,-7,275,Consumo,caixas,João Silva,Lab POA,LOTE-202368
+343,22/03/2025,Tubo Vácuo EDTA 4mL,32,326,Compra,unidades,Ana Costa,Lab POA,LOTE-202362
+344,11/03/2025,Compressor Cirúrgico,53,306,Compra,pacotes,Fernanda Lima,Lab Brasília,LOTE-202343
+345,06/02/2025,Luvas Latex G,-17,195,Transferência,unidades,Maria Souza,Lab SP,LOTE-202395
+346,25/01/2025,Bisturi Desc. #15,34,321,Compra,caixas,Lucas Pereira,Lab Recife,LOTE-202380
+347,30/03/2025,Luvas Latex M,-14,221,Ajuste,caixas,Patrícia Mendes,Lab POA,LOTE-202367
+348,06/01/2025,Luvas Latex G,-14,181,Ajuste,unidades,Ricardo Santos,Lab Brasília,LOTE-202317
+349,13/12/2024,Frasco Soro 500mL,-4,302,Doação,caixas,Ricardo Santos,Lab Brasília,LOTE-202391
+350,01/01/2025,Máscara Cirúrgica,-12,127,Consumo,pacotes,Ricardo Santos,Lab POA,LOTE-202326
+351,29/12/2024,Sonda Vesical,-16,261,Doação,unidades,Patrícia Mendes,Lab Recife,LOTE-202317
+352,20/02/2025,Bisturi Desc. #15,-5,316,Transferência,unidades,Juliana Almeida,Lab RJ,LOTE-202323
+353,28/01/2025,Gaze Estéril,5,197,Ajuste,pacotes,Patrícia Mendes,Lab Recife,LOTE-202301
+354,10/12/2024,Anestésico Local,-13,42,Doação,pacotes,Ricardo Santos,Lab BH,LOTE-202371
+355,15/01/2025,Reagente Glicose HK,-6,188,Ajuste,frascos,Carlos Oliveira,Lab Recife,LOTE-202364
+356,19/02/2025,Frasco Soro 500mL,7,309,Ajuste,pacotes,João Silva,Lab Recife,LOTE-202320
+357,16/04/2025,Gaze Estéril,-7,190,Ajuste,caixas,Ricardo Santos,Lab Recife,LOTE-202343
+358,20/05/2025,Torneira 3 Vias,53,54,Compra,caixas,Ricardo Santos,Lab SP,LOTE-202323
+359,13/05/2025,Bisturi Desc. #15,-25,291,Consumo,caixas,Juliana Almeida,Lab POA,LOTE-202358
+360,04/05/2025,Swab Nasal,-8,132,Ajuste,unidades,João Silva,Lab BH,LOTE-202383
+361,01/03/2025,Tubo Vácuo EDTA 4mL,-3,323,Ajuste,unidades,Patrícia Mendes,Lab POA,LOTE-202355
+362,30/11/2024,Reagente Glicose HK,14,202,Doação,frascos,Carlos Oliveira,Lab RJ,LOTE-202308
+363,14/02/2025,Frasco Soro 500mL,-20,289,Transferência,unidades,Lucas Pereira,Lab SP,LOTE-202373
+364,11/04/2025,Anestésico Local,32,74,Compra,unidades,Patrícia Mendes,Lab Recife,LOTE-202302
+365,02/02/2025,Tala Articulada,44,347,Compra,pacotes,Fernanda Lima,Lab Recife,LOTE-202318
+366,30/03/2025,Tubo Vácuo EDTA 4mL,14,337,Transferência,unidades,Maria Souza,Lab SP,LOTE-202394
+367,16/04/2025,Luvas Latex G,97,278,Compra,pacotes,Lucas Pereira,Lab Recife,LOTE-202314
+368,18/12/2024,Álcool Gel 70%,-25,208,Consumo,frascos,Fernanda Lima,Lab POA,LOTE-202367
+369,08/03/2025,Bisturi Desc. #15,7,298,Transferência,pacotes,Ana Costa,Lab SP,LOTE-202395
+370,26/12/2024,Curativo Adesivo,-12,103,Transferência,unidades,Fernanda Lima,Lab Brasília,LOTE-202382
+371,13/05/2025,Gaze Estéril,9,199,Ajuste,pacotes,Maria Souza,Lab SP,LOTE-202312
+372,19/02/2025,Torneira 3 Vias,-21,33,Consumo,caixas,Ricardo Santos,Lab BH,LOTE-202304
+373,23/01/2025,Antisséptico Clorexidina,8,253,Doação,frascos,Maria Souza,Lab Salvador,LOTE-202314
+374,06/03/2025,Tubo Coleta 5mL,15,215,Doação,unidades,Ana Costa,Lab Salvador,LOTE-202349
+375,23/05/2025,Luvas Latex M,-13,208,Transferência,unidades,Lucas Pereira,Lab POA,LOTE-202319
+376,19/05/2025,Bisturi Desc. #15,4,302,Ajuste,unidades,Carlos Oliveira,Lab Salvador,LOTE-202357
+377,14/04/2025,Termômetro Digital,19,359,Doação,caixas,João Silva,Lab RJ,LOTE-202317
+378,11/05/2025,Tubo Vácuo EDTA 4mL,18,355,Transferência,unidades,Lucas Pereira,Lab Salvador,LOTE-202325
+379,13/01/2025,Tala Articulada,97,444,Compra,unidades,Maria Souza,Lab SP,LOTE-202344
+380,17/12/2024,Solução Salina,89,205,Compra,frascos,Lucas Pereira,Lab Recife,LOTE-202367
+381,06/03/2025,Sonda Vesical,19,280,Compra,unidades,Ana Costa,Lab POA,LOTE-202330
+382,12/03/2025,Anestésico Local,-8,66,Ajuste,caixas,João Silva,Lab Brasília,LOTE-202357
+383,09/02/2025,Antisséptico Clorexidina,-1,252,Consumo,frascos,João Silva,Lab SP,LOTE-202303
+384,28/03/2025,Tala Articulada,-16,428,Transferência,unidades,Juliana Almeida,Lab Brasília,LOTE-202387
+385,02/01/2025,Avental Desc.,5,127,Ajuste,caixas,Patrícia Mendes,Lab BH,LOTE-202315
+386,15/12/2024,Anestésico Local,5,71,Doação,unidades,Ricardo Santos,Lab Brasília,LOTE-202351
+387,13/12/2024,Álcool Gel 70%,25,233,Compra,frascos,Ana Costa,Lab RJ,LOTE-202353
+388,03/03/2025,Frasco Soro 500mL,-20,269,Consumo,caixas,Lucas Pereira,Lab BH,LOTE-202318
+389,31/12/2024,Máscara N95,-22,255,Consumo,caixas,Ana Costa,Lab Salvador,LOTE-202396
+390,13/03/2025,Cateter Intravenoso,12,110,Doação,unidades,Ricardo Santos,Lab SP,LOTE-202347
+391,18/12/2024,Bandagem Estéril,-10,265,Consumo,pacotes,Maria Souza,Lab Recife,LOTE-202397
+392,15/02/2025,Agulha 25x7,4,136,Doação,pacotes,Patrícia Mendes,Lab SP,LOTE-202314
+393,05/04/2025,Bisturi Desc. #15,12,314,Compra,caixas,Maria Souza,Lab Salvador,LOTE-202316
+394,05/04/2025,Luvas Latex G,70,348,Compra,pacotes,Lucas Pereira,Lab Recife,LOTE-202333
+395,31/01/2025,Sonda Vesical,-12,268,Consumo,caixas,Juliana Almeida,Lab POA,LOTE-202338
+396,01/02/2025,Swab Nasal,-5,127,Transferência,unidades,Juliana Almeida,Lab POA,LOTE-202393
+397,25/03/2025,Compressor Cirúrgico,14,320,Transferência,pacotes,Ricardo Santos,Lab Brasília,LOTE-202314
+398,14/01/2025,Antisséptico Clorexidina,-11,241,Consumo,frascos,Patrícia Mendes,Lab Brasília,LOTE-202360
+399,26/02/2025,Frasco Soro 500mL,7,276,Transferência,caixas,Patrícia Mendes,Lab Brasília,LOTE-202334
+400,22/01/2025,Avental Desc.,17,144,Doação,caixas,Maria Souza,Lab BH,LOTE-202331
+401,05/12/2024,Cateter Intravenoso,-3,107,Doação,unidades,Fernanda Lima,Lab RJ,LOTE-202350
+402,03/03/2025,Sonda Vesical,19,287,Ajuste,unidades,João Silva,Lab POA,LOTE-202383
+403,31/12/2024,Frasco Soro 500mL,-29,247,Consumo,unidades,Fernanda Lima,Lab Brasília,LOTE-202371
+404,17/12/2024,Avental Desc.,71,215,Compra,caixas,Juliana Almeida,Lab SP,LOTE-202383
+405,14/12/2024,Luvas Latex M,75,283,Compra,pacotes,Ricardo Santos,Lab Recife,LOTE-202373
+406,24/04/2025,Termômetro Digital,-12,347,Ajuste,caixas,Juliana Almeida,Lab Brasília,LOTE-202319
+407,01/04/2025,Luvas Latex G,7,355,Doação,unidades,Fernanda Lima,Lab Salvador,LOTE-202319
+408,30/01/2025,Agulha 25x7,-6,130,Consumo,unidades,Ana Costa,Lab POA,LOTE-202390
+409,09/12/2024,Luvas Latex M,67,350,Compra,unidades,Ana Costa,Lab SP,LOTE-202342
+410,08/05/2025,Curativo Adesivo,-7,96,Doação,pacotes,Lucas Pereira,Lab RJ,LOTE-202317
+411,04/12/2024,Agulha 25x7,8,138,Transferência,unidades,Carlos Oliveira,Lab Salvador,LOTE-202391
+412,30/11/2024,Curativo Adesivo,96,192,Compra,unidades,Ricardo Santos,Lab Brasília,LOTE-202307
+413,03/04/2025,Cateter Intravenoso,-24,83,Consumo,unidades,João Silva,Lab Recife,LOTE-202311
+414,15/01/2025,Anestésico Local,-4,67,Consumo,caixas,Maria Souza,Lab SP,LOTE-202398
+415,21/12/2024,Fio de Sutura,14,115,Transferência,pacotes,João Silva,Lab POA,LOTE-202385
+416,20/03/2025,Kit PCR COVID-19,69,320,Compra,unidades,João Silva,Lab Salvador,LOTE-202349
+417,28/03/2025,Bisturi Desc. #15,15,329,Compra,caixas,Ricardo Santos,Lab Salvador,LOTE-202309
+418,26/04/2025,Anestésico Local,-2,65,Doação,caixas,João Silva,Lab Recife,LOTE-202336
+419,05/02/2025,Sonda Vesical,92,379,Compra,unidades,Ricardo Santos,Lab POA,LOTE-202345
+420,05/03/2025,Bandagem Estéril,71,336,Compra,unidades,João Silva,Lab SP,LOTE-202308
+421,17/04/2025,Luvas Latex G,6,361,Doação,pacotes,Patrícia Mendes,Lab SP,LOTE-202360
+422,06/04/2025,Máscara Cirúrgica,-19,108,Transferência,caixas,Maria Souza,Lab Salvador,LOTE-202356
+423,07/05/2025,Solução Salina,-8,197,Doação,frascos,Juliana Almeida,Lab POA,LOTE-202335
+424,23/04/2025,Bandagem Estéril,-9,327,Consumo,unidades,Ricardo Santos,Lab Recife,LOTE-202307
+425,01/12/2024,Agulha 25x7,-22,116,Consumo,pacotes,Maria Souza,Lab Brasília,LOTE-202311
+426,22/12/2024,Termômetro Digital,16,363,Doação,caixas,Fernanda Lima,Lab Recife,LOTE-202387
+427,26/03/2025,Fio de Sutura,-8,107,Doação,pacotes,Patrícia Mendes,Lab BH,LOTE-202334
+428,27/11/2024,Frasco Soro 500mL,-6,241,Doação,pacotes,Maria Souza,Lab RJ,LOTE-202365
+429,26/11/2024,Luvas Latex G,55,416,Compra,pacotes,Carlos Oliveira,Lab BH,LOTE-202306
+430,10/04/2025,Óxido Nitroso,12,98,Ajuste,pacotes,João Silva,Lab Brasília,LOTE-202349
+431,17/05/2025,Antisséptico Clorexidina,-20,221,Transferência,frascos,João Silva,Lab Brasília,LOTE-202363
+432,25/02/2025,Torneira 3 Vias,-6,27,Doação,caixas,Ana Costa,Lab POA,LOTE-202327
+433,20/03/2025,Tubo Vácuo EDTA 4mL,-12,343,Consumo,unidades,Juliana Almeida,Lab RJ,LOTE-202374
+434,13/05/2025,Óxido Nitroso,-8,90,Ajuste,unidades,Patrícia Mendes,Lab Salvador,LOTE-202313
+435,12/12/2024,Fio de Sutura,17,124,Ajuste,caixas,Carlos Oliveira,Lab Salvador,LOTE-202352
+436,09/02/2025,Anestésico Local,47,112,Compra,unidades,Lucas Pereira,Lab RJ,LOTE-202312
+437,14/02/2025,Bisturi Desc. #15,-18,311,Ajuste,pacotes,Maria Souza,Lab SP,LOTE-202389
+438,06/03/2025,Luvas Latex M,-20,330,Consumo,unidades,João Silva,Lab Salvador,LOTE-202322
+439,16/03/2025,Luvas Latex M,81,411,Compra,unidades,Ana Costa,Lab Brasília,LOTE-202338
+440,12/12/2024,Tubo Coleta 5mL,-4,211,Consumo,unidades,Juliana Almeida,Lab RJ,LOTE-202307
+441,17/03/2025,Fio de Sutura,5,129,Doação,caixas,Maria Souza,Lab Salvador,LOTE-202305
+442,11/02/2025,Óxido Nitroso,12,102,Transferência,caixas,Fernanda Lima,Lab POA,LOTE-202320
+443,19/05/2025,Compressor Cirúrgico,-2,318,Ajuste,pacotes,Ana Costa,Lab BH,LOTE-202362
+444,23/02/2025,Curativo Adesivo,-14,178,Ajuste,pacotes,Maria Souza,Lab SP,LOTE-202307
+445,29/01/2025,Seringa 10mL,-16,192,Doação,unidades,Ana Costa,Lab Recife,LOTE-202369
+446,25/02/2025,Torneira 3 Vias,-12,15,Consumo,unidades,Fernanda Lima,Lab Recife,LOTE-202360
+447,13/05/2025,Touca Desc.,-5,349,Transferência,pacotes,Ana Costa,Lab BH,LOTE-202385
+448,13/04/2025,Tubo Coleta 5mL,-5,206,Consumo,unidades,Juliana Almeida,Lab SP,LOTE-202338
+449,25/02/2025,Máscara Cirúrgica,-10,98,Transferência,pacotes,Fernanda Lima,Lab Recife,LOTE-202379
+450,27/02/2025,Anestésico Local,12,124,Transferência,caixas,Ana Costa,Lab Salvador,LOTE-202387
+451,10/02/2025,Fio de Sutura,-6,123,Consumo,pacotes,Ana Costa,Lab Brasília,LOTE-202311
+452,28/04/2025,Bandagem Estéril,17,344,Ajuste,caixas,Ricardo Santos,Lab POA,LOTE-202342
+453,26/01/2025,Antisséptico Clorexidina,-9,212,Transferência,frascos,Maria Souza,Lab SP,LOTE-202348
+454,17/02/2025,Touca Desc.,-4,345,Transferência,unidades,Fernanda Lima,Lab RJ,LOTE-202351
+455,25/11/2024,Tala Articulada,5,433,Doação,pacotes,Carlos Oliveira,Lab POA,LOTE-202333
+456,14/03/2025,Tala Articulada,-6,427,Transferência,caixas,João Silva,Lab Recife,LOTE-202345
+457,12/12/2024,Curativo Adesivo,-14,164,Consumo,caixas,Juliana Almeida,Lab BH,LOTE-202369
+458,15/04/2025,Antisséptico Clorexidina,-8,204,Consumo,frascos,Ana Costa,Lab POA,LOTE-202390
+459,12/12/2024,Compressor Cirúrgico,65,383,Compra,caixas,Lucas Pereira,Lab Salvador,LOTE-202301
+460,06/04/2025,Antisséptico Clorexidina,-1,203,Consumo,frascos,Carlos Oliveira,Lab POA,LOTE-202390
+461,02/02/2025,Fio de Sutura,-3,120,Transferência,unidades,Ana Costa,Lab BH,LOTE-202311
+462,23/12/2024,Agulha 25x7,13,129,Doação,unidades,Fernanda Lima,Lab SP,LOTE-202381
+463,10/04/2025,Termômetro Digital,-24,339,Consumo,pacotes,Juliana Almeida,Lab POA,LOTE-202321
+464,09/02/2025,Antisséptico Clorexidina,-28,175,Consumo,frascos,João Silva,Lab Brasília,LOTE-202377
+465,04/12/2024,Óxido Nitroso,1,103,Transferência,unidades,Ana Costa,Lab Salvador,LOTE-202375
+466,02/01/2025,Avental Desc.,-28,187,Consumo,unidades,Maria Souza,Lab Recife,LOTE-202368
+467,30/12/2024,Luvas Latex G,-8,408,Doação,unidades,Maria Souza,Lab Salvador,LOTE-202329
+468,07/05/2025,Cateter Intravenoso,-28,55,Consumo,unidades,Fernanda Lima,Lab SP,LOTE-202300
+469,29/04/2025,Avental Desc.,-16,171,Transferência,caixas,Lucas Pereira,Lab POA,LOTE-202319
+470,17/01/2025,Tubo Coleta 5mL,-20,186,Ajuste,unidades,Lucas Pereira,Lab Brasília,LOTE-202375
+471,18/12/2024,Touca Desc.,-15,330,Doação,caixas,Maria Souza,Lab SP,LOTE-202306
+472,05/04/2025,Solução Salina,-4,193,Consumo,frascos,Ricardo Santos,Lab POA,LOTE-202340
+473,06/12/2024,Kit PCR COVID-19,22,342,Compra,caixas,Fernanda Lima,Lab Salvador,LOTE-202363
+474,23/01/2025,Sonda Vesical,-27,352,Consumo,unidades,Lucas Pereira,Lab POA,LOTE-202316
+475,20/04/2025,Tubo Vácuo EDTA 4mL,3,346,Transferência,unidades,João Silva,Lab RJ,LOTE-202347
+476,20/03/2025,Seringa 10mL,13,205,Ajuste,unidades,Ana Costa,Lab BH,LOTE-202318
+477,04/12/2024,Tubo Vácuo EDTA 4mL,16,362,Doação,unidades,Carlos Oliveira,Lab BH,LOTE-202318
+478,07/01/2025,Avental Desc.,-10,161,Consumo,caixas,Lucas Pereira,Lab Recife,LOTE-202343
+479,28/11/2024,Gaze Estéril,-5,194,Doação,caixas,Lucas Pereira,Lab POA,LOTE-202380
+480,26/11/2024,Álcool Gel 70%,17,250,Doação,frascos,Patrícia Mendes,Lab Salvador,LOTE-202317
+481,08/03/2025,Curativo Adesivo,-12,152,Transferência,unidades,Patrícia Mendes,Lab Recife,LOTE-202304
+482,24/04/2025,Sonda Vesical,-25,327,Consumo,unidades,Ricardo Santos,Lab Recife,LOTE-202357
+483,09/12/2024,Swab Nasal,4,131,Transferência,unidades,João Silva,Lab Brasília,LOTE-202300
+484,09/02/2025,Gaze Estéril,-4,190,Transferência,pacotes,Lucas Pereira,Lab BH,LOTE-202389
+485,28/02/2025,Tubo Coleta 5mL,-10,176,Consumo,unidades,João Silva,Lab Brasília,LOTE-202355
+486,15/12/2024,Anestésico Local,3,127,Doação,pacotes,Fernanda Lima,Lab BH,LOTE-202319
+487,18/04/2025,Tala Articulada,-16,411,Ajuste,pacotes,Fernanda Lima,Lab Salvador,LOTE-202323
+488,05/04/2025,Agulha 25x7,-1,128,Consumo,unidades,Ricardo Santos,Lab Brasília,LOTE-202387
+489,16/02/2025,Fio de Sutura,33,153,Compra,pacotes,Ricardo Santos,Lab POA,LOTE-202396
+490,08/05/2025,Frasco Soro 500mL,-12,229,Ajuste,unidades,Lucas Pereira,Lab Recife,LOTE-202321
+491,09/03/2025,Anestésico Local,-10,117,Consumo,caixas,Fernanda Lima,Lab Salvador,LOTE-202371
+492,28/04/2025,Termômetro Digital,-13,326,Doação,pacotes,Lucas Pereira,Lab Recife,LOTE-202319
+493,08/01/2025,Curativo Adesivo,-19,133,Transferência,unidades,Lucas Pereira,Lab Salvador,LOTE-202347
+494,27/12/2024,Tubo Vácuo EDTA 4mL,19,381,Ajuste,unidades,Ana Costa,Lab BH,LOTE-202326
+495,28/03/2025,Bandagem Estéril,-19,325,Consumo,caixas,Ricardo Santos,Lab RJ,LOTE-202328
+496,07/05/2025,Kit PCR COVID-19,-9,333,Ajuste,unidades,Ricardo Santos,Lab RJ,LOTE-202357
+497,25/12/2024,Swab Nasal,-16,115,Doação,unidades,Patrícia Mendes,Lab BH,LOTE-202375
+498,13/05/2025,Avental Desc.,-16,145,Doação,caixas,Carlos Oliveira,Lab SP,LOTE-202322
+499,05/02/2025,Frasco Soro 500mL,7,236,Transferência,unidades,Maria Souza,Lab RJ,LOTE-202368
+500,26/04/2025,Curativo Adesivo,88,221,Compra,unidades,Ricardo Santos,Lab POA,LOTE-202337
