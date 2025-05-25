@@ -24,6 +24,17 @@ def calcular_kpis(df):
     top_var = cv.nlargest(10, 'CV').reset_index()
     return top_var
 
+def calcular_outliers_iqr(df):
+    """Calcula outliers usando o método IQR"""
+    Q1 = df['Quantidade'].quantile(0.25)
+    Q3 = df['Quantidade'].quantile(0.75)
+    IQR = Q3 - Q1
+    limite_inferior = Q1 - 1.5 * IQR
+    limite_superior = Q3 + 1.5 * IQR
+    
+    outliers = df[(df['Quantidade'] < limite_inferior) | (df['Quantidade'] > limite_superior)]
+    return outliers, limite_inferior, limite_superior
+
 def enviar_alerta_email(destinatario, assunto, mensagem):
     try:
         msg = EmailMessage()
@@ -126,7 +137,7 @@ def main():
         
         # Configurações de alerta
         st.header("🔔 Configuração de Alertas")
-        limite_desvio = st.slider("Limite de desvio padrão para alerta", 1.0, 5.0, 2.0)
+        limite_desvio = st.slider("Limite de desvio padrão para alerta (Z-score)", 1.0, 5.0, 2.0)
         email_gestor = st.text_input("E-mail do gestor para alertas")
         
         # Testar notificação
@@ -174,10 +185,63 @@ def main():
                     title="Coeficiente de Variação por Material")
     st.plotly_chart(fig_kpi, use_container_width=True)
 
-    # --- SEÇÃO DE ALERTAS ---
+    # --- SEÇÃO DE ANÁLISE DE OUTLIERS ---
+    st.header("🔍 Detecção de Anomalias")
+    
+    tab1, tab2 = st.tabs(["Método Z-Score", "Método IQR"])
+    
+    with tab1:
+        st.subheader("🚨 Alertas por Z-Score")
+        alertas_zscore = []
+        for material in df_filtrado['Material'].unique():
+            df_mat = df_filtrado[df_filtrado['Material'] == material]
+            media = df_mat['Quantidade'].mean()
+            std = df_mat['Quantidade'].std()
+            
+            # Calcular Z-score para todos os registros
+            df_mat['Z-score'] = (df_mat['Quantidade'] - media) / std
+            
+            # Identificar outliers
+            outliers = df_mat[np.abs(df_mat['Z-score']) > limite_desvio]
+            if not outliers.empty:
+                alertas_zscore.append(outliers)
+        
+        if alertas_zscore:
+            df_alertas_z = pd.concat(alertas_zscore)
+            st.dataframe(df_alertas_z[['Data', 'Material', 'Quantidade', 'Z-score']].sort_values('Z-score', key=abs, ascending=False),
+                        use_container_width=True)
+            
+            # Gráfico de distribuição
+            fig_z = px.histogram(df_filtrado, x='Quantidade', nbins=50, 
+                               title=f"Distribuição com Z-score (Limite: ±{limite_desvio})")
+            fig_z.add_vline(x=media + limite_desvio * std, line_dash="dash", line_color="red")
+            fig_z.add_vline(x=media - limite_desvio * std, line_dash="dash", line_color="red")
+            st.plotly_chart(fig_z, use_container_width=True)
+        else:
+            st.success("✅ Nenhum outlier detectado pelo método Z-score")
+    
+    with tab2:
+        st.subheader("📏 Alertas por Intervalo Interquartil (IQR)")
+        outliers_iqr, li, ls = calcular_outliers_iqr(df_filtrado)
+        
+        if not outliers_iqr.empty:
+            st.write(f"**Limites IQR:** Inferior = {li:.2f}, Superior = {ls:.2f}")
+            st.dataframe(outliers_iqr[['Data', 'Material', 'Quantidade']], 
+                        use_container_width=True)
+            
+            # Boxplot
+            fig_iqr = px.box(df_filtrado, y='Quantidade', 
+                           title="Distribuição com Intervalo Interquartil")
+            fig_iqr.add_hline(y=li, line_dash="dash", line_color="orange")
+            fig_iqr.add_hline(y=ls, line_dash="dash", line_color="orange")
+            st.plotly_chart(fig_iqr, use_container_width=True)
+        else:
+            st.success("✅ Nenhum outlier detectado pelo método IQR")
+
+    # --- SEÇÃO DE ALERTAS AUTOMATIZADOS ---
     st.header("🚨 Alertas Automatizados")
     
-    # Alertas baseados em desvio padrão
+    # Alertas baseados em desvio padrão (original)
     alertas = []
     for material in df_filtrado['Material'].unique():
         df_mat = df_filtrado[df_filtrado['Material'] == material]
@@ -197,7 +261,6 @@ def main():
     if alertas:
         df_alertas = pd.DataFrame(alertas)
         
-        # Aplicar cores baseadas na urgência
         def colorizar(val):
             color = 'red' if val > 0 else 'orange'
             return f'color: {color}'
@@ -205,7 +268,6 @@ def main():
         st.dataframe(df_alertas.style.applymap(colorizar, subset=['Valor']), 
                     use_container_width=True)
         
-        # Botão para enviar alertas por e-mail
         if email_gestor and st.button("Enviar Alertas por E-mail"):
             mensagem = "Alertas de Estoque:\n\n" + \
                       "\n".join([f"{a['Material']}: {a['Valor']} (Média: {a['Média']:.1f} ± {a['Desvio Padrão']:.1f})" 
@@ -217,7 +279,7 @@ def main():
         st.success("✅ Nenhum alerta crítico detectado")
 
     # --- ANÁLISE DETALHADA ---
-    st.header("🔍 Análise Detalhada")
+    st.header("📈 Análise Detalhada")
     
     tab1, tab2 = st.tabs(["Movimentação por Material", "Tendência Temporal"])
     
